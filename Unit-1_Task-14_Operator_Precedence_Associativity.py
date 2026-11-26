@@ -1,0 +1,13 @@
+# Experiment 14: Operator Precedence and Associativity
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+result1 = a + b * c
+result2 = (a + b) * c
+result3 = a ** b ** c
+
+print("a + b * c =", result1)
+print("(a + b) * c =", result2)
+print("a ** b ** c =", result3)
